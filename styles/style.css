@@ -42,8 +42,8 @@ html {
 }
 
 .content__list {
-  display: flex;
   position: relative;
+  display: flex;
   flex-direction: column;
   height: 298px;
   overflow: scroll;
@@ -60,11 +60,11 @@ html {
 }
 
 .result__video-container {
+  position: relative;
   display: flex;
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
-  position: relative;
 }
 
 .result__video {
@@ -155,7 +155,7 @@ input[type="checkbox"]:checked ~ .search-form__pseudo-checkbox::before {
 .search-form__textfield:focus {
   outline: none;
 }
-/*ДОПИШИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИ*/
+
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
 }
@@ -231,10 +231,6 @@ input[type="checkbox"]:checked ~ .search-form__pseudo-checkbox::before {
   font-style: normal;
   line-height: 94%;
   text-transform: uppercase;
-}
-
-.preloader-template {
-  position: absolute;
 }
 
 .content__video-card {
