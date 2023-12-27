@@ -290,38 +290,38 @@ input[type="checkbox"]:checked ~ .search-form__pseudo-checkbox::before {
 
 .content__card-link {
   display: block;
-  color: #fff;
-  text-decoration: none;
   padding-top: 1px;
   padding-bottom: 1px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .content__video-card-title {
   display: flex;
-  margin-top: 2px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
   max-width: 200px;
+  margin-top: 2px;
+  overflow: hidden;
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 700;
   font-size: 30px;
   font-style: normal;
   line-height: 100%;
   text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .content__video-card-description {
   display: inline;
+  display: -webkit-box;
+  max-height: 17px;
   margin-top: 6px;
+  overflow: hidden;
   font-family: "Fira Sans Condensed", "Arial", sans-serif;;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  max-height: 17px;
   line-height: 16.2px;
-  display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
-  overflow: hidden;
 }
